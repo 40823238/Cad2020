@@ -133,26 +133,33 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">設計 << <a href='設計.html'>Previous</a> <a href='筆記.html'>Next</a> >> 筆記<br /><h1>模擬</h1>
-<p>偏心輪模擬</p>
-<p>問題:偏心倫可以轉，但滑塊會穿模噴飛，經過討論後原因可能是導軌跟軸沒有間隙的問題</p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="//www.youtube.com/embed/_SN9tZHclfo" width="560"></iframe></p>
-<p><strong>20210107</strong></p>
-<p>軌道測試模擬(測試球能不能順暢通過軌道)</p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="//www.youtube.com/embed/6x50h1C9Ek4" width="560"></iframe><br/><span></span></p>
-<p><span>但修改間隙後，滑塊依然穿模噴飛，得知不是間隙問題。</span></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="//www.youtube.com/embed/Gzb5EJkI4X4" width="560"></iframe></p>
-<p><strong>20210109</strong></p>
-<p>修改導軌間隙</p>
-<p><img alt="" height="291" src="./../images/導軌.png" width="440"/></p>
-<p></p>
-<p><img alt="" height="375" src="./../images/導軌軸2.8.png" width="440"/></p>
-<p></p>
-<p><strong>20210114</strong></p>
-<p><b>導軌噴飛修改。</b></p>
-<p><b>問題:只能行程一次，而且會歪歪的。</b></p>
-<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="//www.youtube.com/embed/tvgRd39CdSI" width="560"></iframe></p>
-<br />設計 << <a href='設計.html'>Previous</a> <a href='筆記.html'>Next</a> >> 筆記</div>
+    <div id="tipue_search_content">hw2-Pyslvs_UI << <a href='hw2-Pyslvs_UI.html'>Previous</a> <a href='小組分工.html'>Next</a> >> 小組分工<br /><h1>hw3</h1>
+<p><img alt="" height="395" src="./../images/螢幕擷取畫面 2021-01-15 120735.png" width="440"/></p>
+<p>程式碼</p>
+<pre class="brush:xml;auto-links:false;toolbar:false" contenteditable="false">&lt;robot_definition&gt;
+&lt;robot_dk name=kr162&gt;
+&lt;axis id="Base" maxvalue="0" minvalue="0" alpha="0" a="0" theta="0" d="0"/&gt;
+&lt;axis id="Joint1" limsup="185.000" liminf="-185.000" alpha="0.000" a="0.000" theta="90.000" d="640"/&gt;
+&lt;axis id="Joint2" limsup="380.000" liminf="-380.000" alpha="90.000" a="-260" theta="0.000" d="0.00"/&gt;
+&lt;axis id="Joint3" limsup="144.000" liminf="-100.000" alpha="0.000" a="1300.000" theta="-90.000" d="0.000"/&gt;
+&lt;axis id="Joint4" limsup="350.000" liminf="-350.000" alpha="-90.000" a="-55.000" theta="0.000" d="1025.000"/&gt;
+&lt;axis id="Joint5" limsup="120.000" liminf="-120.000" alpha="90.000" a="0.000" theta="0.000" d="0.000"/&gt;
+&lt;axis id="Joint6" limsup="350.000" liminf="-350.000" alpha="-90.000" a="0.000" theta="180.000" d="290.000"/&gt;
+&lt;/robot_dk&gt;
+&lt;robot_geometry&gt;
+&lt;geometry geo="kuka kr16 assembly - base-2" name="Base" /&gt;
+&lt;geometry geo="kuka kr16 assembly - rotary head-2" name="Joint1"/&gt;
+&lt;geometry geo="kuka kr16 assembly - lower arm-2" name="Joint2"/&gt;
+&lt;geometry geo="kuka kr16 assembly - upper arm-2" name="Joint3"/&gt;
+&lt;geometry geo="kuka kr16 assembly - p2-2" name="Joint4"/&gt;
+&lt;geometry geo="kuka kr16 assembly - WRIST-2" name="Joint5"/&gt;
+&lt;/robot_geometry&gt;
+&lt;CAD_base x="0.000" y="0.000" z="0.000" rx="0.000" ry="0.000" rz="0.000"/&gt;
+&lt;CAD_scale FACTOR="1.000000000"/&gt;
+&lt;CAD_offsets cad_theta1="0.000" cad_theta2="0.000" cad_theta3="0.000" cad_theta4="0.000" cad_theta5="0.000" cad_theta6="0.000"/&gt;
+&lt;Angle_Type id="1"/&gt;
+&lt;/robot_definition&gt;</pre>
+<p></p><br />hw2-Pyslvs_UI << <a href='hw2-Pyslvs_UI.html'>Previous</a> <a href='小組分工.html'>Next</a> >> 小組分工</div>
         
     <!-- footer -->
       <div class="container">

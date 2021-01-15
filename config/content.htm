@@ -143,7 +143,33 @@ if __name__ == "__main__":
 <p>使用Pyslvs_UI繪製</p>
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="//www.youtube.com/embed/9QnjAaC_n9Q" width="560"></iframe></p>
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="//www.youtube.com/embed/hD6paw7sYWw" width="560"></iframe></p>
-<h1>小組分工</h1>
+<h2>hw3</h2>
+<p><img alt="" height="395" src="/images/螢幕擷取畫面 2021-01-15 120735.png" width="440"/></p>
+<p>程式碼</p>
+<pre class="brush:xml;auto-links:false;toolbar:false" contenteditable="false">&lt;robot_definition&gt;
+&lt;robot_dk name=kr162&gt;
+&lt;axis id="Base" maxvalue="0" minvalue="0" alpha="0" a="0" theta="0" d="0"/&gt;
+&lt;axis id="Joint1" limsup="185.000" liminf="-185.000" alpha="0.000" a="0.000" theta="90.000" d="640"/&gt;
+&lt;axis id="Joint2" limsup="380.000" liminf="-380.000" alpha="90.000" a="-260" theta="0.000" d="0.00"/&gt;
+&lt;axis id="Joint3" limsup="144.000" liminf="-100.000" alpha="0.000" a="1300.000" theta="-90.000" d="0.000"/&gt;
+&lt;axis id="Joint4" limsup="350.000" liminf="-350.000" alpha="-90.000" a="-55.000" theta="0.000" d="1025.000"/&gt;
+&lt;axis id="Joint5" limsup="120.000" liminf="-120.000" alpha="90.000" a="0.000" theta="0.000" d="0.000"/&gt;
+&lt;axis id="Joint6" limsup="350.000" liminf="-350.000" alpha="-90.000" a="0.000" theta="180.000" d="290.000"/&gt;
+&lt;/robot_dk&gt;
+&lt;robot_geometry&gt;
+&lt;geometry geo="kuka kr16 assembly - base-2" name="Base" /&gt;
+&lt;geometry geo="kuka kr16 assembly - rotary head-2" name="Joint1"/&gt;
+&lt;geometry geo="kuka kr16 assembly - lower arm-2" name="Joint2"/&gt;
+&lt;geometry geo="kuka kr16 assembly - upper arm-2" name="Joint3"/&gt;
+&lt;geometry geo="kuka kr16 assembly - p2-2" name="Joint4"/&gt;
+&lt;geometry geo="kuka kr16 assembly - WRIST-2" name="Joint5"/&gt;
+&lt;/robot_geometry&gt;
+&lt;CAD_base x="0.000" y="0.000" z="0.000" rx="0.000" ry="0.000" rz="0.000"/&gt;
+&lt;CAD_scale FACTOR="1.000000000"/&gt;
+&lt;CAD_offsets cad_theta1="0.000" cad_theta2="0.000" cad_theta3="0.000" cad_theta4="0.000" cad_theta5="0.000" cad_theta6="0.000"/&gt;
+&lt;Angle_Type id="1"/&gt;
+&lt;/robot_definition&gt;</pre>
+<p></p><h1>小組分工</h1>
 <h2>名單</h2>
 <p>分組倉儲:<span> </span><a href="https://github.com/40823246/cad2020bg4">https://github.com/40823246/cad2020bg4</a><br/><br/>分組網站:<span> </span><a href="http://40823246.github.io/cad2020bg4">http://40823246.github.io/cad2020bg4</a></p>
 <p>Repository:<span> </span><a href="https://github.com/40823207/cad2020">40823207</a><span> </span>| Site:<span> </span><a href="https://40823207.github.io/cad2020">40823207</a><br/>Repository:<span> </span><a href="https://github.com/40823208/cad2020">40823208</a><span> </span>| Site:<span> </span><a href="https://40823208.github.io/cad2020">40823208</a><br/>Repository:<span> </span><a href="https://github.com/40823216/cad2020">40823216</a><span> </span>| Site:<span> </span><a href="https://40823216.github.io/cad2020">40823216</a><br/>Repository:<span> </span><a href="https://github.com/40823218/cad2020">40823218</a><span> </span>| Site:<span> </span><a href="https://40823218.github.io/cad2020">40823218</a><br/>Repository:<span> </span><a href="https://github.com/40823220/cad2020">40823220</a><span> </span>| Site:<span> </span><a href="https://40823220.github.io/cad2020">40823220</a><br/>Repository:<span> </span><a href="https://github.com/40823224/cad2020">40823224</a><span> </span>| Site:<span> </span><a href="https://40823224.github.io/cad2020">40823224</a><br/>Repository:<span> </span><a href="https://github.com/40823228/cad2020">40823228</a><span> </span>| Site:<span> </span><a href="https://40823228.github.io/cad2020">40823228</a><br/>Repository:<span> </span><a href="https://github.com/40823238/cad2020">40823238</a><span> </span>| Site:<span> </span><a href="https://40823238.github.io/cad2020">40823238</a><br/>Repository:<span> </span><a href="https://github.com/40823244/cad2020">40823244</a><span> </span>| Site:<span> </span><a href="https://40823244.github.io/cad2020">40823244</a><br/>Repository:<span> </span><a href="https://github.com/40823246/cad2020">40823246</a><span> </span>| Site:<span> </span><a href="https://40823246.github.io/cad2020">40823246</a><span> </span>(組長)</p>
@@ -179,10 +205,11 @@ if __name__ == "__main__":
 <p><img alt="" height="297" src="/images/git config.png" width="583"/></p>
 <p></p>
 <p>git push方式切換</p>
-<br/><br/><br/><img alt="" height="300" src="/images/config.png" width="587"/>
+<p><br/><br/><br/><img alt="" height="300" src="/images/config.png" width="587"/></p>
 <h1>心得</h1>
 <p>這學期的課程不太一樣，偏向運用電腦來快速設計零件，並且用了很多不同的軟體，小組方面很像在做專題，大家分別做不同的部分，雖然過程不太順利，但是有了經驗。</p>
-<p></p><h1>Develop</h1>
+<p></p>
+<h1>Develop</h1>
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
